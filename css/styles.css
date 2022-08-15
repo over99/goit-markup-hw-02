@@ -40,6 +40,8 @@ body {
     font-family: var(--primary-font);
     font-size: 14px;
     background: var(--primary-background-color);
+    font-weight: 700;
+    letter-spacing: 0.03em;
 }
 
 button {
@@ -88,7 +90,6 @@ h6 {
 
 .menu-link {
     font-weight: 500;
-    font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
 
@@ -97,7 +98,6 @@ h6 {
 
 .contact-info {
     font-weight: 500;
-    font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
 
@@ -126,7 +126,6 @@ h6 {
 }
 
 .model-open-btn {
-    font-weight: 700;
     font-size: 16px;
     line-height: 1.88;
     letter-spacing: 0.06em;
@@ -161,18 +160,13 @@ h6 {
 }
 
 .title {
-    font-weight: 700;
-    font-size: 14px;
     line-height: 1.14;
-    letter-spacing: 0.03em;
     text-transform: uppercase;
 }
 
 .benefits .text {
     font-weight: 400;
-    font-size: 14px;
     line-height: 1.71;
-    letter-spacing: 0.03em;
 
     color: var(--secondary-text-color-them-light);
 }
@@ -180,11 +174,9 @@ h6 {
 /*Роботи*/
 
 .work-title {
-    font-weight: 700;
     font-size: 36px;
     line-height: 1.17;
     text-align: center;
-    letter-spacing: 0.03em;
 }
 
 /*Команда*/
@@ -194,15 +186,13 @@ h6 {
 }
 
 .person-info {
-    background: var(--background-person0-info);
+    background: var(--background-person-info);
 }
 
 .team-title {
-    font-weight: 700;
     font-size: 36px;
     line-height: 1.17;
     text-align: center;
-    letter-spacing: 0.03em;
 
     color: var(--primary-text-color-them-light);
 }
@@ -211,14 +201,12 @@ h6 {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.19;
-    letter-spacing: 0.03em;
 }
 
-.profession-person {
+.proffession-person {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.19;
-    letter-spacing: 0.03em;
 
     color: var(--secondary-text-color-them-light);
 }
@@ -247,7 +235,6 @@ h6 {
     font-family: var(--primary-font);
     font-style: normal;
     font-weight: 400;
-    font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
 
@@ -262,11 +249,10 @@ h6 {
 .contact-list {
     font-style: normal;
     font-weight: 400;
-    font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
 
-    color:var(--contact-text-list);
+    color: var(--contact-text-list);
 }
 
 .contact-list:hover,
@@ -284,10 +270,9 @@ h6 {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.62;
-    letter-spacing: 0.03em;
 
     color: var(--primary-text-color-them-light);
-    background: var(-background-portfolio-title);
+    background: var(--background-portfolio-title);
 }
 
 .portfolio-title:hover,
@@ -297,7 +282,6 @@ h6 {
 }
 
 .work-name{
-    font-weight: 700;
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
@@ -309,7 +293,6 @@ h6 {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.88;
-    letter-spacing: 0.03em;
 
     color: var(--secondary-text-color-them-light);
 }
